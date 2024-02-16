@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/c1"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:text="Title:Cybertruck Might Be Dangerous For Everyone: Experts"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Description:If you have an argument with another car, you will win,” Elon Musk said during Tesla’s November 30 Cybertruck delivery event. This is much of the problem that traffic crash analysts are having with the preliminary crash videos released by Tesla. Cars with cr…"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#3851DF">
+
+    </TextView>
+
+
+</LinearLayout>
